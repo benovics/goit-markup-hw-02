@@ -2,14 +2,40 @@
   display: flex;
   gap: 24px;
 }
+ .features {
+  padding: 120px 0;
+ }
 
-.features-list { font-family: Roboto;
-font-weight: 400;
-font-style: Regular;
-font-size: 16px;
-leading-trim: NONE;
-line-height: 24px;
-letter-spacing: 2%;
-list-style: none;
+ .features-item {
+  width: calc((100% - 72px) / 4);
 }
 
+.features-title {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #2e2f42;
+}
+
+.features-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
+
+.features-list li {
+  width: calc((100% - 72px) / 4);
+}
+
+.features-list h3 {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #2e2f42;
+}
+
+.features-list p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}

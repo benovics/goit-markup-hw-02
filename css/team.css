@@ -1,6 +1,6 @@
 .team {
   background: #f4f4fd;
-  padding: 120px;
+  padding: 120px 0;
 }
 
 .team-list {
@@ -10,7 +10,8 @@
 
 .team-item {
   background: white;
-  width: calc((100% - 72px) /4);
+  width: calc((100% - 72px) / 4);
+  border-radius: 0 0 4px 4px;
 }
 
 img {
@@ -20,5 +21,26 @@ img {
 }
 h2 {
   text-align: center;
+  color: #2E2F42;
+}
+
+.team-text {
+  padding: 32px 0;
+  text-align: center;
+}
+
+.team-item h3 {
+  text-align: center;
+  margin-bottom: 8px;
+
+}
+
+.team-item p {
+  text-align: center;
+}
+
+.team h2 {
+  text-align: center;
+  margin-bottom: 72px;
   color: #2E2F42;
 }
