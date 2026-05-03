@@ -2,7 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-font-family: 'Roboto', sans-serif
+font-family: 'Roboto', sans-serif;
+padding: 24px 0;
 
 }
 
@@ -50,22 +51,17 @@ margin-right: 76px;
   align-items: center;
 }
 
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
 
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
 
 .nav-link {
+  color: #2e2f42;
+  text-decoration: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: #2e2f42;
-  text-decoration: none;
   padding: 24px 0;
   display: block;
 }
