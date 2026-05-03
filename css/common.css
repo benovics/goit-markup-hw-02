@@ -1,6 +1,8 @@
 body {
   margin: 0;
-  font-family: Arial;
+  font-family: 'Roboto' sans-serif;
+  color: #2e2f42;
+  background-color: #fff;
 }
 .container {
   width: 1158px;
@@ -26,4 +28,9 @@ letter-spacing: 3%;
 vertical-align: middle;
 text-transform: uppercase;
 color:#F4F4FD ;
+ }
+ ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
  }

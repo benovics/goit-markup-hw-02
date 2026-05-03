@@ -3,20 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <title>WebStudio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
 
-<header class="header">
+<header class="header" id="header">
   <div class="container header-container">
-    <a class="logo" href="#"><span class="logo-blue">WEB</span>STUDIO</a>
+    <a href="./index.html" class="logo"><span class="logo-blue">WEB</span>STUDIO</a>
 
     <nav>
       <ul class="nav-list">
-        <li><a href="#">Features</a></li>
-        <li><a href="#">Team</a></li>
-        <li><a href="#">Portfolio</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
       </ul>
     </nav>
 
@@ -26,13 +29,13 @@
     </address>
   </div>
 </header>
-
-<section class="hero">
-  <h1>Effective Solutions <br><br>for Your Business</h1>
+<main>
+<section class="hero" id="hero">
+  <h1>Effective Solutions <br> for Your Business</h1>
   <button class="hero-btn">Order Service</button>
 </section>
 
-<section class="features">
+<section class="features" id="features">
   <div class="container">
     <ul class="features-list">
       <li><h3>Strategy</h3><p>Our goal is to identify the business
@@ -44,7 +47,7 @@ problem to walk away with the perfect and creative solution. </p></li>
   </div>
 </section>
 
-<section class="team">
+<section class="team" id="team">
   <div class="container">
     <h2>Our Team</h2>
 
@@ -84,7 +87,7 @@ problem to walk away with the perfect and creative solution. </p></li>
   </div>
 </section>
 
-<section class="portfolio">
+<section class="portfolio" id="portfolio">
   <div class="container">
     <h2>Our Portfolio</h2>
 
@@ -158,8 +161,9 @@ problem to walk away with the perfect and creative solution. </p></li>
     </ul>
   </div>
 </section>
+</main>
 
-<footer class="footer">
+<footer class="footer" id="footer">
   <div class="container">
     <a href="#" class="hurko"><span class="design">WEB</span>STUDIO</a>
     <p>Increase the flow of customers and <br> sales for your business with digital <br> marketing & growth solutions.</p>

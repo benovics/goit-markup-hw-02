@@ -2,12 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid #E7E9FC
+font-family: 'Roboto' sans-serif;
 }
 
 .nav-list {
   display: flex;
   gap: 40px;
-  list-style: none;
+
 }
 .contacts {
   display: flex;
@@ -15,6 +17,7 @@
   color: black;
   list-style: none;
   margin-left: auto;
+  
 }
 .logo {
   color: black;
@@ -23,7 +26,7 @@
   font-family: raleway;
   font-weight: 700;
   font-size: 18px;
-
+margin-right: 76px;
 }
 
 .logo-blue {
@@ -41,4 +44,15 @@
   text-decoration: none;
   color: #434455;
   font-size: 14px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
