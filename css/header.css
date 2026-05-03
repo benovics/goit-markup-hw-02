@@ -1,0 +1,44 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+.contacts {
+  display: flex;
+  gap: 40px;
+  color: black;
+  list-style: none;
+  margin-left: auto;
+}
+.logo {
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+  font-family: raleway;
+  font-weight: 700;
+  font-size: 18px;
+
+}
+
+.logo-blue {
+  color:  blue;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.contacts a {
+  text-decoration: none;
+  color: #434455;
+  font-size: 14px;
+}

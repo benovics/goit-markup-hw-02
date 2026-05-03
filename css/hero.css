@@ -1,0 +1,29 @@
+.hero {
+  background: #2e2f42;
+  color: white;
+  text-align: center;
+  width: 1440;
+height: 600;
+angle: 0 deg;
+opacity: 1;
+padding-top: 188px;
+padding-bottom: 188px;
+
+
+}
+
+.hero-btn {
+  width: 169;
+height: 56;
+max-width: 169px;
+angle: 0 deg;
+opacity: 1;
+padding-top: 16px;
+padding-right: 32px;
+padding-bottom: 16px;
+padding-left: 32px;
+border-radius: 4px;
+background: #4D5AE5;
+color: white;
+
+}

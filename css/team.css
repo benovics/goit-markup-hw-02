@@ -1,0 +1,24 @@
+.team {
+  background: #f4f4fd;
+  padding: 120px;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-item {
+  background: white;
+  width: calc((100% - 72px) /4);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+h2 {
+  text-align: center;
+  color: #2E2F42;
+}
