@@ -1,88 +1,23 @@
-.logo {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-  color: #4d5ae5;
-}
+/* HERO */
 
-.logo span {
-  color: #2e2f42;
-}
-
-.nav-link {
-  color: #2e2f42;
-  letter-spacing: 0.02em;
-}
-
-.nav-link:hover,
-.nav-link:focus {
-  color: #404bbf;
-}
-
-.contact-link {
-  color: #434455;
-  letter-spacing: 0.02em;
-}
-
-.contact-link:hover,
-.contact-link:focus {
-  color: #404bbf;
-}
-
-#hero {
+.hero {
   background-color: #2e2f42;
 }
 
-/* LOGO */
-.logo {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-}
-
-.logo span {
-  color: #2e2f42;
-}
-
-/* NAV */
-.nav-link {
-  font-weight: 500;
-  color: #2e2f42;
-  letter-spacing: 0.02em;
-}
-
-.nav-link:hover,
-.nav-link:focus {
-  color: #404bbf;
-}
-
-/* CONTACTS */
-.contacts {
-  font-style: normal;
-}
-
-.contact-link {
-  color: #434455;
-  letter-spacing: 0.02em;
-}
-
-#hero h1 {
+.hero-title {
   color: #ffffff;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center; /* ВАЖНО */
 }
 
-#hero button {
+.hero-btn {
   font-family: inherit;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5; /* ВАЖНО — у тебя за это сняли */
+  line-height: 1.5;
   letter-spacing: 0.04em;
 
   color: #ffffff;
@@ -90,7 +25,11 @@
   cursor: pointer;
 }
 
-#hero button:hover,
-#hero button:focus {
+.hero-btn:hover,
+.hero-btn:focus {
   background-color: #404bbf;
+}
+
+.h1-text {
+  color: #FFFFFF;
 }

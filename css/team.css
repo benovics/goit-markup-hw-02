@@ -1,31 +1,37 @@
-#team {
+
+.team {
   background-color: #f4f4fd;
 }
 
-#team h2 {
+
+.team-title {
+  font-size: 36px;
+  line-height: 1.11;
   text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
-#team h3 {
+
+.team-item {
+  background-color: #ffffff;
+  
+}
+
+
+.team-name {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
-#team p {
+
+.team-role {
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
-.team-item {
-  list-style: none;
-}
-
-.team-img {
-  display: inline-block;
-  vertical-align: top;
-}
-
-.team-text {
-  display: inline-block;
-  vertical-align: top;
-}
