@@ -1,39 +1,10 @@
-.features-list {
-  display: flex;
-  gap: 24px;
-}
- .features {
-  padding: 120px 0;
- }
-
- .features-item {
-  width: calc((100% - 72px) / 4);
-}
-
-.features-title {
-  font-weight: 500;
-  font-size: 20px;
-  margin-bottom: 8px;
-  color: #2e2f42;
-}
-
-.features-text {
-  font-size: 16px;
-  line-height: 1.5;
-  color: #434455;
-}
-
-.features-title {
-  font-weight: 500;
+#features h3 {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
-.features-text {
-  font-size: 16px;
-  line-height: 1.5;
+#features p {
   letter-spacing: 0.02em;
-  color: #434455;
 }
